@@ -2,6 +2,7 @@
   "private": true,
   "version": "2.10.4",
   "name": "PS4RemotePKGSenderV2",
+  "homepage": "https://github.com",
   "productName": "PS4 Remote PKG Sender V2",
   "author": "Gkiokan <support@gkiokan.net>",
   "description": "Manage and send PKG files to your PS4 and PS5",
@@ -94,7 +95,8 @@
           "arch": [
             "x64",
             "ia32",
-            "armv7l"
+            "armv7l",
+            "arm64"
           ]
         },
         {

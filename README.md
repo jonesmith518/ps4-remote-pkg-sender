@@ -12,6 +12,13 @@ Based on Electron, Webpack, Vue, Express, Axios, Element-UI and Node this does n
 dependencies. With this we can createa a cross platform application that works on mac, linux and Windows
 and provides a nice GUI.  
 
+For someone running arm64 linux on nintendo switch
+```bash
+# build arm64 AppImage
+npm install
+electron-webpack && electron-builder --linux --arm64
+```
+
 ![PS4 Package Sender Main Application Windows](https://github.com/Gkiokan/ps4-remote-pkg-sender/blob/master/screenshot.jpg)
 
 [![Full Changelog](https://img.shields.io/badge/Checkout%20-All%20Changelogs-yellow)](Changelog.md)
